@@ -500,7 +500,7 @@
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.1" />
 
   <project path="bionic" name="ArchiDroid/android_bionic" />
-  <project path="build" name="ArchiDroid/android_build" revision="cm-12.1-optimized" >
+  <project path="build" name="GearCM/android_build" revision="cm-12.1-optimized" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-5.1" />
