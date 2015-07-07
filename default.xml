@@ -491,31 +491,38 @@
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
-  <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" />
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
 
   <!-- GearCM Customized Repositories -->
   <project path="android" name="GearCM/android" />
-  <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.1" />
 
   <project path="bionic" name="ArchiDroid/android_bionic" />
+
   <project path="build" name="GearCM/android_build" revision="cm-12.1-optimized" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-5.1" />
+
   <project path="frameworks/base" name="ArchiDroid/android_frameworks_base" />
   <project path="frameworks/native" name="ArchiDroid/android_frameworks_native" />
+
   <project path="libcore" name="ArchiDroid/android_libcore" />
+
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sabermod-4.8-arm-linux-androideabi" />
+  
+  <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
+  <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.1" />
   <project path="packages/apps/Settings" name="ArchiDroid/android_packages_apps_Settings" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" />
-  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sabermod-4.8-arm-linux-androideabi" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" revision="cm-12.1" />
   <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Reborn" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="GearCM/android_hardware_samsung_slsi_exynos5-insignal" revision="cm-12.0" />
   <project path="hardware/samsung_slsi/exynos5410" name="GearCM/android_hardware_samsung_slsi_exynos5410" revision="cm-12.0" />
+  <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" />
 
   <!-- Vendor Repositories -->
   <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" revision="cm-12.0" />
