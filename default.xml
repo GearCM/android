@@ -458,7 +458,7 @@
   <project path="frameworks/av" name="ArchiDroid/android_frameworks_av" />
   <project path="frameworks/native" name="ArchiDroid/android_frameworks_native" />
 
-  <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
+  <!-- <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" /> -->
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="android-4.4" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" revision="cm-12.1" />
 
