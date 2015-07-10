@@ -462,7 +462,7 @@
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="android-4.4" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" revision="cm-12.1" />
 
-  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-ArchiDroid" remote="github" revision="aosp-4.8-arm-eabi" />
+  <project name="ArchiDroid/Toolchain" path="prebuilt/linux-x86/toolchain/arm-eabi-ArchiDroid" remote="github" revision="aosp-4.8-arm-eabi" />
   <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-ArchiDroid" remote="github" revision="aosp-4.8-arm-linux-androideabi" />
 
   <!-- Common Devices Repositories -->
