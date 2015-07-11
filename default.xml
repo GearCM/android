@@ -468,7 +468,7 @@
   <!-- Common Devices Repositories -->
   <project path="hardware/samsung" name="GearCM/android_hardware_samsung" revision="cm-11.0" />
 
-  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" revision="cm-12.0" />
+  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" revision="cm-11.0_new" />
