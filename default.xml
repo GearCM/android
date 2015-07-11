@@ -505,7 +505,7 @@
 
   <project path="bootable/recovery" name="VanirAOSP/bootable_recovery_TWRP" revision="L51" />
 
-  <project path="frameworks/base" name="ArchiDroid/android_frameworks_base" />
+  <project path="frameworks/base" name="GearCM/android_frameworks_base" />
   <project path="frameworks/native" name="ArchiDroid/android_frameworks_native" />
 
   <project path="libcore" name="ArchiDroid/android_libcore" />
