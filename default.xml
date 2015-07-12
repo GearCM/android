@@ -505,7 +505,7 @@
   <project path="packages/services/Telecomm" name="ArchiDroid/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="GearCM/android_packages_services_Telephony" />
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="Alberto96/sabermod_arm-eabi-5.1" remote="bitbucket" revision="07032015" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="Alberto96/sabermod_arm-eabi-5.1" remote="bitbucket" revision="07032015" />
   <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sabermod-4.8-arm-linux-androideabi" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
