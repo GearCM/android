@@ -484,29 +484,36 @@
 
   <!-- GearCM Customized Repositories -->
   <project path="android" name="GearCM/android" />
-  <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.0" />
 
   <project path="bionic" name="ArchiDroid/android_bionic" />
+
   <project path="build" name="ArchiDroid/android_build" revision="cm-12.0-optimized" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
   <project path="bootable/recovery" name="ArchiDroid/android_bootable_recovery" />
+
   <project path="frameworks/base" name="ArchiDroid/android_frameworks_base" />
   <project path="frameworks/native" name="ArchiDroid/android_frameworks_native" />
+
+  <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
+  <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.0" />
   <project path="packages/apps/Settings" name="ArchiDroid/android_packages_apps_Settings" />
+  <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" revision="cm-12.1" />
   <project path="packages/services/Telecomm" name="ArchiDroid/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="ArchiDroid/android_packages_services_Telephony" />
+
   <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sabermod-4.8-arm-linux-androideabi" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" />
-  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel" />
+  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Reborn" />
   <project path="hardware/samsung_slsi/openmax" name="GearCM/android_hardware_samsung_slsi_openmax" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="GearCM/android_hardware_samsung_slsi_exynos5-insignal" />
   <project path="hardware/samsung_slsi/exynos5410" name="GearCM/android_hardware_samsung_slsi_exynos5410" />
   
   <!-- Common Devices Repositories -->
-  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" revision="cm-12.0-stable" />
-  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" revision="cm-12.0" />
+  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" />
+  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" />
 
 </manifest>
