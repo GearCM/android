@@ -501,7 +501,7 @@
   <project path="packages/apps/Settings" name="ArchiDroid/android_packages_apps_Settings" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" revision="cm-12.1" />
   <project path="packages/services/Telecomm" name="ArchiDroid/android_packages_services_Telecomm" />
-  <project path="packages/services/Telephony" name="ArchiDroid/android_packages_services_Telephony" />
+  <project path="packages/services/Telephony" name="GearCM/android_packages_services_Telephony" />
 
   <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sabermod-4.8-arm-linux-androideabi" />
 
