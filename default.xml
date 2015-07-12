@@ -487,7 +487,7 @@
 
   <project path="bionic" name="ArchiDroid/android_bionic" />
 
-  <project path="build" name="ArchiDroid/android_build" revision="cm-12.0-optimized" >
+  <project path="build" name="GearCM/android_build" revision="cm-12.0-optimized" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
