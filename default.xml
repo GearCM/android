@@ -9,6 +9,9 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org" />
+		   
   <remote  name="private"
            fetch="ssh://git@github.com" />
            
@@ -146,7 +149,6 @@
   <project path="external/jhead" name="CyanogenMod/android_external_jhead" groups="pdk" />
   <project path="external/jmdns" name="CyanogenMod/android_external_jmdns" />
   <project path="external/jmonkeyengine" name="CyanogenMod/android_external_jmonkeyengine" />
-  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
   <project path="external/jsilver" name="CyanogenMod/android_external_jsilver" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/jsr308" name="CyanogenMod/android_external_jsr308" />
@@ -156,7 +158,6 @@
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" />
   <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -240,7 +241,6 @@
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
@@ -402,7 +402,6 @@
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -455,14 +454,18 @@
 
   <project path="bootable/recovery" name="ArchiDroid/android_bootable_recovery" />
 
+  <project path="external/skia" name="AOSPA-L/android_external_skia" revision="kk4.4" />  
+  <project path="external/jpeg" name="AOSPA-L/android_external_jpeg" revision="turbo" />
+  
   <project path="frameworks/av" name="ArchiDroid/android_frameworks_av" />
   <project path="frameworks/native" name="ArchiDroid/android_frameworks_native" />
 
   <!-- <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" /> -->
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="android-4.4" />
+  <project path="packages/apps/SuperSU" name="GearCM/android_packages_apps_SuperSU" revision="v2.46" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" revision="cm-12.1" />
 
-  <project name="ArchiDroid/Toolchain" path="prebuilt/linux-x86/toolchain/arm-eabi-ArchiDroid" remote="github" revision="aosp-4.8-arm-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="Alberto96/sabermod_arm-eabi-4.7" remote="bitbucket" revision="07032015" />
   <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-ArchiDroid" remote="github" revision="aosp-4.8-arm-linux-androideabi" />
 
   <!-- Common Devices Repositories -->
