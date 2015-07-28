@@ -484,7 +484,7 @@
   <!-- GearCM Customized Repositories -->
   <project path="android" name="GearCM/android" />
 
-  <project path="bionic" name="ArchiDroid/android_bionic" />
+  <project path="bionic" name="TeamEOS/bionic" revision="lp5.0" />
 
   <project path="build" name="GearCM/android_build" revision="cm-12.0-optimized" >
     <copyfile src="core/root.mk" dest="Makefile" />
