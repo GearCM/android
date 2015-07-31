@@ -463,7 +463,6 @@
 
   <!-- <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" /> -->
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="android-4.4" />
-  <project path="packages/apps/SuperSU" name="GearCM/android_packages_apps_SuperSU" revision="v2.46_cm11" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" revision="cm-12.1" />
 
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-ArchiDroid" name="ArchiDroid/Toolchain" remote="github" revision="architoolchain-5.1-arm-linux-gnueabihf" />  
