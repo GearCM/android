@@ -466,7 +466,7 @@
   <project path="packages/apps/SuperSU" name="GearCM/android_packages_apps_SuperSU" revision="v2.46_cm11" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" revision="cm-12.1" />
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-ArchiDroid" name="ArchiDroid/Toolchain" remote="github" revision="architoolchain-5.1-arm-linux-gnueabihf" />  
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-ArchiDroid" name="ArchiDroid/Toolchain" remote="github" revision="architoolchain-5.1-arm-linux-gnueabihf" />  
   <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-ArchiDroid" remote="github" revision="aosp-4.8-arm-linux-androideabi" />
 
   <!-- Common Devices Repositories -->
