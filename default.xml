@@ -491,6 +491,10 @@
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" />
+  <project path="hardware/samsung_slsi-cm/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5410" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" />
 
   <!-- GearCM Customized Repositories -->
   <project path="android" name="GearCM/android" />
@@ -505,17 +509,16 @@
 
   <project path="external/skia" name="AOSPA-L/android_external_skia" revision="lollipop-mr1" />  
   <project path="external/jpeg" name="AOSPA-L/android_external_jpeg" revision="turbo" />
-  
+
   <project path="frameworks/base" name="GearCM/android_frameworks_base" />
   <project path="frameworks/native" name="ArchiDroid/android_frameworks_native" />
 
-  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" revision="cm-12.1" />
+  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" />
 
   <project path="libcore" name="ArchiDroid/android_libcore" />
 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" /> 
   <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sabermod-4.8-arm-linux-androideabi" />
-  
+
   <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.1" />
   <project path="packages/apps/Settings" name="ArchiDroid/android_packages_apps_Settings" />
@@ -523,11 +526,8 @@
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
-  <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" revision="cm-12.1" />
+  <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" />
   <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Simple" />
-  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" />
-  <project path="hardware/samsung_slsi-cm/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5410" />
-  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" />
 
   <!-- Vendor Repositories -->
   <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" revision="cm-12.0" />
