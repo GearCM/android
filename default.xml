@@ -486,9 +486,11 @@
   <!-- CM Variable Repositories -->
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="aosp" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" />
   <project path="hardware/samsung_slsi-cm/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5410" />
   <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" />
@@ -498,7 +500,7 @@
 
   <project path="bionic" name="TeamEOS/bionic" revision="lp5.1" />
 
-  <project path="build" name="GearCM/android_build" revision="cm-12.1-optimized" >
+  <project path="build" name="GearCM/android_build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -509,11 +511,8 @@
   <project path="external/jpeg" name="AOSPA-L/android_external_jpeg" revision="turbo" />
 
   <project path="frameworks/base" name="GearCM/android_frameworks_base" />
-  <project path="frameworks/native" name="ArchiDroid/android_frameworks_native" />
 
   <project path="hardware/samsung" name="GearCM/android_hardware_samsung" />
-
-  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sabermod-4.8-arm-linux-androideabi" />
 
   <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.1" />
