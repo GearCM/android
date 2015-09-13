@@ -484,7 +484,6 @@
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
   <!-- CM Variable Repositories -->
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
