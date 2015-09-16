@@ -508,7 +508,7 @@
   <project path="bootable/recovery" name="VanirAOSP/bootable_recovery_TWRP" revision="L51" />
 
   <project path="external/sqlite" name="TeamExodus/external_sqlite" revision="EXODUS-5.1" />
-  <project path="external/skia" name="AOSPA-L/android_external_skia" revision="lollipop-mr1" />
+  <project path="external/skia" name="TeamEOS/external_skia" revision="lp5.1" />
 
   <project path="frameworks/base" name="GearCM/android_frameworks_base" />
 
