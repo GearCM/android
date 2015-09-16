@@ -484,8 +484,10 @@
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
   <!-- CM Variable Repositories -->
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
@@ -507,7 +509,6 @@
 
   <project path="external/sqlite" name="TeamExodus/external_sqlite" revision="EXODUS-5.1" />
   <project path="external/skia" name="AOSPA-L/android_external_skia" revision="lollipop-mr1" />
-  <project path="external/jpeg" name="AOSPA-L/android_external_jpeg" revision="turbo" />
 
   <project path="frameworks/base" name="GearCM/android_frameworks_base" />
 
@@ -517,7 +518,6 @@
   
   <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.1" />
-  <project path="packages/apps/Settings" name="ArchiDroid/android_packages_apps_Settings" />
   <project path="packages/apps/SuperSU" name="GearCM/android_packages_apps_SuperSU" revision="v2.46" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" />
 
