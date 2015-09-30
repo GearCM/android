@@ -469,16 +469,16 @@
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
-  <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" revision="cm-11.0_new" />
+  <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" revision="cm-11.0_EOL" />
   <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Simple" />
 
   <!-- Samsung Wave Repositories -->
-  <project path="device/samsung/wave" name="GearCM/android_device_samsung_wave" />
+  <project path="device/samsung/wave" name="GearCM/android_device_samsung_wave" revision="cm-11.0_EOL" />
 
   <!-- Common Devices Repositories -->
-  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" />
+  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" revision="cm-11.0_EOL" />
 
   <!-- Vendor Repositories -->
-  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" />
+  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" revision="cm-11.0_EOL" />
   
 </manifest>
