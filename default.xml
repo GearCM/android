@@ -453,7 +453,6 @@
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
   <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" revision="cm-12.1" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" revision="cm-12.1" />
-  <project path="hardware/samsung_slsi-cm/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5410" revision="cm-12.1" />
   <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" revision="cm-12.1" />
 
   <!-- GearCM Customized Repositories -->
@@ -471,6 +470,7 @@
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" revision="cm-11.0_EOL" />
   <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Simple" />
+  <project path="hardware/samsung_slsi-cm/exynos5410" name="GearCM/android_hardware_samsung_slsi-cm_exynos5410" />
 
   <!-- Samsung Wave Repositories -->
   <project path="device/samsung/wave" name="GearCM/android_device_samsung_wave" revision="cm-11.0" />
