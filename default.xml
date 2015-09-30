@@ -473,10 +473,10 @@
   <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Simple" />
 
   <!-- Samsung Wave Repositories -->
-  <project path="device/samsung/wave" name="GearCM/android_device_samsung_wave" revision="cm-11.0_EOL" />
+  <project path="device/samsung/wave" name="GearCM/android_device_samsung_wave" revision="cm-11.0" />
 
   <!-- Common Devices Repositories -->
-  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" revision="cm-11.0_EOL" />
+  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" revision="cm-11.0" />
 
   <!-- Vendor Repositories -->
   <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" revision="cm-11.0_EOL" />
