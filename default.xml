@@ -402,8 +402,6 @@
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -444,46 +442,43 @@
   </project>
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
-  <!-- GearCM Customized Repositories -->
-  <project path="android" name="GearCM/android" revision="cm-11.0_new" />
-
-  <project path="art" name="ArchiDroid/android_art" />
-
-  <project path="build" name="ArchiDroid/android_build" >
+  <!-- CM Variable Repositories -->
+  <project path="art" name="CyanogenMod/android_art" />
+  <project path="build" name="CyanogenMod/android_build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
-  <project path="bootable/recovery" name="ArchiDroid/android_bootable_recovery" />
-
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" />  
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" revision="cm-12.1" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" revision="cm-12.1" />
+  <project path="hardware/samsung_slsi-cm/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5410" revision="cm-12.1" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" revision="cm-12.1" />
+
+  <!-- GearCM Customized Repositories -->
+  <project path="android" name="GearCM/android" revision="cm-11.0_EOL" />
+
   <project path="external/jpeg" name="TeamEOS/external_jpeg" revision="kk4.4" />
-  
-  <project path="frameworks/av" name="ArchiDroid/android_frameworks_av" />
-  <project path="frameworks/native" name="ArchiDroid/android_frameworks_native" />
 
   <!-- <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" /> -->
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="android-4.4" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" revision="cm-12.1" />
 
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="GearCM/arm-cortex_a8-linux-gnueabi-linaro_4.7.4-2014.06" remote="github"  />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-ArchiDroid" name="ArchiDroid/Toolchain" remote="github" revision="architoolchain-5.1-arm-linux-gnueabihf" />  
-  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-ArchiDroid" remote="github" revision="aosp-4.8-arm-linux-androideabi" />
-
-  <!-- Common Devices Repositories -->
-  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" revision="cm-11.0" />
-
-  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" revision="cm-11.0_new" />
-
-  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Reborn" />
-
-  <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" revision="cm-12.1" />
-  <project path="hardware/samsung_slsi/exynos5-insignal" name="GearCM/android_hardware_samsung_slsi_exynos5-insignal" revision="cm-11.0" />
-  <project path="hardware/samsung_slsi/exynos5410" name="GearCM/android_hardware_samsung_slsi_exynos5410" revision="cm-12.0" />
+  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Simple" />
 
   <!-- Samsung Wave Repositories -->
   <project path="device/samsung/wave" name="GearCM/android_device_samsung_wave" />
+
+  <!-- Common Devices Repositories -->
+  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" />
+
+  <!-- Vendor Repositories -->
+  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" />
   
 </manifest>
