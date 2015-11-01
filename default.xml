@@ -22,11 +22,9 @@
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CyanogenMod/android" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
@@ -546,5 +544,19 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
+
+  <!-- GearCM Customized Repositories -->
+  <project path="android" name="GearCM/android" />
+
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-6.0" />
+
+  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" />
+
+  <!-- Samsung Galaxy S4 Exynos Repositories -->
+  <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" />
+  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Simple" />
+
+  <!-- Vendor Repositories -->
+  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" /> 
 
 </manifest>
