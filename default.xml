@@ -549,7 +549,7 @@
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" />
-  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Simple" />
+  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" revision="GearKernel_Simple_M" />
 
   <!-- Vendor Repositories -->
   <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" /> 
