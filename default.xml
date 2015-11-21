@@ -551,7 +551,7 @@
   <project path="hardware/samsung" name="GearCM/android_hardware_samsung" />
 
   <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
-  <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-3.0" />
+  <!--   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-3.0" /> -->
   <!--   <project path="packages/apps/SuperSU" name="GearCM/android_packages_apps_SuperSU" revision="v2.46" /> -->
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" revision="cm-12.1" />
 
