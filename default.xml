@@ -446,12 +446,13 @@
   <project path="build" name="CyanogenMod/android_build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" />  
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
 
   <!-- GearCM Customized Repositories -->
   <project path="android" name="GearCM/android" revision="cm-11.0_EOL" />
+
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-6.0" />
 
   <project path="external/jpeg" name="TeamEOS/external_jpeg" revision="kk4.4" />
 
