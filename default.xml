@@ -486,7 +486,7 @@
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
   <!-- CM Variable Repositories -->
-  <project path="bionic" name="CyanogenMod/bionic" />
+  <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
