@@ -467,7 +467,7 @@
 
   <!--   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" revision="android-6.0" /> -->
 
-  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
 
   <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
   <!--   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-3.0" /> -->
