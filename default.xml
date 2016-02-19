@@ -514,6 +514,7 @@
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" />
 
+  <project path="hardware/samsung_slsi-cm/exynos" name="GearCM/android_hardware_samsung_slsi-cm_exynos" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" />
   <project path="hardware/samsung_slsi-cm/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5410" />
   <project path="hardware/samsung_slsi-cm/openmax" name="GearCM/android_hardware_samsung_slsi-cm_openmax" />  
