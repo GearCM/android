@@ -508,7 +508,7 @@
   
   <project path="packages/apps/OTAUpdates" name="MatthewBooth/OTAUpdates" revision="aosp" />
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.1" />
-  <project path="packages/apps/SuperSU" name="GearCM/android_packages_apps_SuperSU" revision="v2.46" />
+  <project path="packages/apps/SuperSU" name="GearCM/android_packages_apps_SuperSU" revision="v2.65" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
