@@ -478,6 +478,8 @@
   </project>
 
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery-twrp" name="vaniraosp/bootable_recovery_twrp" groups="pdk" remote="github" revision="m6" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
 
   <project path="external/sepolicy" name="ResurrectionRemix/external_sepolicy" revision="marshmallow" />
 
